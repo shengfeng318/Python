@@ -18,7 +18,7 @@ GdB=20*(np.log10(V1/V0))
 print(GdB)
 
 
-# In[46]:
+# In[47]:
 
 
 #2.30分貝的聲壓會是50分貝的幾倍?
@@ -26,5 +26,5 @@ print(GdB)
 #請寫下程式
 V50=np.power(10, 2.5)*20
 V30=np.power(10, 1.5)*20
-print(np.rint(V50/V30))
+print(V50/V30)
 
